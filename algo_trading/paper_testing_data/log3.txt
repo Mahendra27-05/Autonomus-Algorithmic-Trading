@@ -1,0 +1,103 @@
+2026-06-29 10:16:26,954 - INFO - Authenticating via TOTP...
+Ready to Groww!
+2026-06-29 10:16:28,497 - INFO - System Online.
+2026-06-29 10:16:28,498 - INFO - 📝 Paper State Loaded Successfully.
+2026-06-29 10:16:28,498 - INFO - 📝 PAPER ACCOUNT LOADED | Equity: ₹994921.45 | Cash: ₹997410.72 | Daily PnL: ₹-2499.38
+2026-06-29 10:16:28,498 - INFO - 📝 PROFESSIONAL PAPER TRADING ENGINE INITIALIZED
+2026-06-29 10:16:31,236 - INFO - Trading Mode: PAPER (Virtual Money)
+2026-06-29 10:16:31,237 - INFO - Background Telegram worker activated.
+2026-06-29 10:16:31,238 - INFO - Scanning 1m trend...
+2026-06-29 10:16:31,962 - INFO - Spot: 24066.0 | VWAP: 24083.51 | RSI: 43.72 | VIX: 15.00
+2026-06-29 10:16:51,963 - INFO - Scanning 1m trend...
+2026-06-29 10:16:52,632 - INFO - Spot: 24066.0 | VWAP: 24083.51 | RSI: 43.72 | VIX: 15.00
+2026-06-29 10:17:12,633 - INFO - Scanning 1m trend...
+2026-06-29 10:17:13,472 - INFO - Spot: 24072.7 | VWAP: 24083.32 | RSI: 47.04 | VIX: 15.00
+2026-06-29 10:17:33,473 - INFO - Scanning 1m trend...
+2026-06-29 10:17:33,476 - ERROR - Execution Error: HTTPSConnectionPool(host='api.groww.in', port=443): Max retries exceeded with url: /v1/historical/candles?exchange=NSE&segment=FNO&groww_symbol=NSE-NIFTY-30Jun26-FUT&start_time=2026-06-27+10%3A17%3A33&end_time=2026-06-29+10%3A17%3A33&candle_interval=1minute (Caused by NameResolutionError("HTTPSConnection(host='api.groww.in', port=443): Failed to resolve 'api.groww.in' ([Errno 11001] getaddrinfo failed)"))
+2026-06-29 10:17:33,478 - ERROR - Failed to send to 5719926209: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8697393690:AAHsbXL1wV2PvAQJoLVTaxy_lf5SaywSkqc/sendMessage (Caused by NameResolutionError("HTTPSConnection(host='api.telegram.org', port=443): Failed to resolve 'api.telegram.org' ([Errno 11001] getaddrinfo failed)"))
+2026-06-29 10:17:33,480 - ERROR - Failed to send to 8043143794: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8697393690:AAHsbXL1wV2PvAQJoLVTaxy_lf5SaywSkqc/sendMessage (Caused by NameResolutionError("HTTPSConnection(host='api.telegram.org', port=443): Failed to resolve 'api.telegram.org' ([Errno 11001] getaddrinfo failed)"))
+2026-06-29 10:17:33,481 - ERROR - Failed to send to 5229253387: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8697393690:AAHsbXL1wV2PvAQJoLVTaxy_lf5SaywSkqc/sendMessage (Caused by NameResolutionError("HTTPSConnection(host='api.telegram.org', port=443): Failed to resolve 'api.telegram.org' ([Errno 11001] getaddrinfo failed)"))
+2026-06-29 10:17:33,482 - ERROR - Failed to send to 6746112925: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8697393690:AAHsbXL1wV2PvAQJoLVTaxy_lf5SaywSkqc/sendMessage (Caused by NameResolutionError("HTTPSConnection(host='api.telegram.org', port=443): Failed to resolve 'api.telegram.org' ([Errno 11001] getaddrinfo failed)"))
+2026-06-29 10:17:53,483 - INFO - Scanning 1m trend...
+2026-06-29 10:17:53,485 - ERROR - Execution Error: HTTPSConnectionPool(host='api.groww.in', port=443): Max retries exceeded with url: /v1/historical/candles?exchange=NSE&segment=FNO&groww_symbol=NSE-NIFTY-30Jun26-FUT&start_time=2026-06-27+10%3A17%3A53&end_time=2026-06-29+10%3A17%3A53&candle_interval=1minute (Caused by NameResolutionError("HTTPSConnection(host='api.groww.in', port=443): Failed to resolve 'api.groww.in' ([Errno 11001] getaddrinfo failed)"))
+2026-06-29 10:17:53,486 - ERROR - Failed to send to 5719926209: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8697393690:AAHsbXL1wV2PvAQJoLVTaxy_lf5SaywSkqc/sendMessage (Caused by NameResolutionError("HTTPSConnection(host='api.telegram.org', port=443): Failed to resolve 'api.telegram.org' ([Errno 11001] getaddrinfo failed)"))
+2026-06-29 10:17:53,487 - ERROR - Failed to send to 8043143794: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8697393690:AAHsbXL1wV2PvAQJoLVTaxy_lf5SaywSkqc/sendMessage (Caused by NameResolutionError("HTTPSConnection(host='api.telegram.org', port=443): Failed to resolve 'api.telegram.org' ([Errno 11001] getaddrinfo failed)"))
+2026-06-29 10:17:53,489 - ERROR - Failed to send to 5229253387: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8697393690:AAHsbXL1wV2PvAQJoLVTaxy_lf5SaywSkqc/sendMessage (Caused by NameResolutionError("HTTPSConnection(host='api.telegram.org', port=443): Failed to resolve 'api.telegram.org' ([Errno 11001] getaddrinfo failed)"))
+2026-06-29 10:17:53,490 - ERROR - Failed to send to 6746112925: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8697393690:AAHsbXL1wV2PvAQJoLVTaxy_lf5SaywSkqc/sendMessage (Caused by NameResolutionError("HTTPSConnection(host='api.telegram.org', port=443): Failed to resolve 'api.telegram.org' ([Errno 11001] getaddrinfo failed)"))
+2026-06-29 10:18:13,491 - INFO - Scanning 1m trend...
+2026-06-29 10:18:13,494 - ERROR - Execution Error: HTTPSConnectionPool(host='api.groww.in', port=443): Max retries exceeded with url: /v1/historical/candles?exchange=NSE&segment=FNO&groww_symbol=NSE-NIFTY-30Jun26-FUT&start_time=2026-06-27+10%3A18%3A13&end_time=2026-06-29+10%3A18%3A13&candle_interval=1minute (Caused by NameResolutionError("HTTPSConnection(host='api.groww.in', port=443): Failed to resolve 'api.groww.in' ([Errno 11001] getaddrinfo failed)"))
+2026-06-29 10:18:13,496 - ERROR - Failed to send to 5719926209: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8697393690:AAHsbXL1wV2PvAQJoLVTaxy_lf5SaywSkqc/sendMessage (Caused by NameResolutionError("HTTPSConnection(host='api.telegram.org', port=443): Failed to resolve 'api.telegram.org' ([Errno 11001] getaddrinfo failed)"))
+2026-06-29 10:18:13,501 - ERROR - Failed to send to 8043143794: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8697393690:AAHsbXL1wV2PvAQJoLVTaxy_lf5SaywSkqc/sendMessage (Caused by NameResolutionError("HTTPSConnection(host='api.telegram.org', port=443): Failed to resolve 'api.telegram.org' ([Errno 11001] getaddrinfo failed)"))
+2026-06-29 10:18:13,502 - ERROR - Failed to send to 5229253387: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8697393690:AAHsbXL1wV2PvAQJoLVTaxy_lf5SaywSkqc/sendMessage (Caused by NameResolutionError("HTTPSConnection(host='api.telegram.org', port=443): Failed to resolve 'api.telegram.org' ([Errno 11001] getaddrinfo failed)"))
+2026-06-29 10:18:13,504 - ERROR - Failed to send to 6746112925: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8697393690:AAHsbXL1wV2PvAQJoLVTaxy_lf5SaywSkqc/sendMessage (Caused by NameResolutionError("HTTPSConnection(host='api.telegram.org', port=443): Failed to resolve 'api.telegram.org' ([Errno 11001] getaddrinfo failed)"))
+2026-06-29 10:18:33,506 - INFO - Scanning 1m trend...
+2026-06-29 10:18:33,508 - ERROR - Execution Error: HTTPSConnectionPool(host='api.groww.in', port=443): Max retries exceeded with url: /v1/historical/candles?exchange=NSE&segment=FNO&groww_symbol=NSE-NIFTY-30Jun26-FUT&start_time=2026-06-27+10%3A18%3A33&end_time=2026-06-29+10%3A18%3A33&candle_interval=1minute (Caused by NameResolutionError("HTTPSConnection(host='api.groww.in', port=443): Failed to resolve 'api.groww.in' ([Errno 11001] getaddrinfo failed)"))
+2026-06-29 10:18:33,509 - ERROR - Failed to send to 5719926209: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8697393690:AAHsbXL1wV2PvAQJoLVTaxy_lf5SaywSkqc/sendMessage (Caused by NameResolutionError("HTTPSConnection(host='api.telegram.org', port=443): Failed to resolve 'api.telegram.org' ([Errno 11001] getaddrinfo failed)"))
+2026-06-29 10:18:33,511 - ERROR - Failed to send to 8043143794: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8697393690:AAHsbXL1wV2PvAQJoLVTaxy_lf5SaywSkqc/sendMessage (Caused by NameResolutionError("HTTPSConnection(host='api.telegram.org', port=443): Failed to resolve 'api.telegram.org' ([Errno 11001] getaddrinfo failed)"))
+2026-06-29 10:18:33,512 - ERROR - Failed to send to 5229253387: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8697393690:AAHsbXL1wV2PvAQJoLVTaxy_lf5SaywSkqc/sendMessage (Caused by NameResolutionError("HTTPSConnection(host='api.telegram.org', port=443): Failed to resolve 'api.telegram.org' ([Errno 11001] getaddrinfo failed)"))
+2026-06-29 10:18:33,513 - ERROR - Failed to send to 6746112925: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8697393690:AAHsbXL1wV2PvAQJoLVTaxy_lf5SaywSkqc/sendMessage (Caused by NameResolutionError("HTTPSConnection(host='api.telegram.org', port=443): Failed to resolve 'api.telegram.org' ([Errno 11001] getaddrinfo failed)"))
+2026-06-29 10:18:53,513 - INFO - Scanning 1m trend...
+2026-06-29 10:18:53,516 - ERROR - Execution Error: HTTPSConnectionPool(host='api.groww.in', port=443): Max retries exceeded with url: /v1/historical/candles?exchange=NSE&segment=FNO&groww_symbol=NSE-NIFTY-30Jun26-FUT&start_time=2026-06-27+10%3A18%3A53&end_time=2026-06-29+10%3A18%3A53&candle_interval=1minute (Caused by NameResolutionError("HTTPSConnection(host='api.groww.in', port=443): Failed to resolve 'api.groww.in' ([Errno 11001] getaddrinfo failed)"))
+2026-06-29 10:18:53,518 - ERROR - Failed to send to 5719926209: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8697393690:AAHsbXL1wV2PvAQJoLVTaxy_lf5SaywSkqc/sendMessage (Caused by NameResolutionError("HTTPSConnection(host='api.telegram.org', port=443): Failed to resolve 'api.telegram.org' ([Errno 11001] getaddrinfo failed)"))
+2026-06-29 10:18:53,523 - ERROR - Failed to send to 8043143794: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8697393690:AAHsbXL1wV2PvAQJoLVTaxy_lf5SaywSkqc/sendMessage (Caused by NameResolutionError("HTTPSConnection(host='api.telegram.org', port=443): Failed to resolve 'api.telegram.org' ([Errno 11001] getaddrinfo failed)"))
+2026-06-29 10:18:53,525 - ERROR - Failed to send to 5229253387: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8697393690:AAHsbXL1wV2PvAQJoLVTaxy_lf5SaywSkqc/sendMessage (Caused by NameResolutionError("HTTPSConnection(host='api.telegram.org', port=443): Failed to resolve 'api.telegram.org' ([Errno 11001] getaddrinfo failed)"))
+2026-06-29 10:18:53,526 - ERROR - Failed to send to 6746112925: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8697393690:AAHsbXL1wV2PvAQJoLVTaxy_lf5SaywSkqc/sendMessage (Caused by NameResolutionError("HTTPSConnection(host='api.telegram.org', port=443): Failed to resolve 'api.telegram.org' ([Errno 11001] getaddrinfo failed)"))
+2026-06-29 10:19:13,527 - INFO - Scanning 1m trend...
+2026-06-29 10:19:14,265 - INFO - Spot: 24071.6 | VWAP: 24082.40 | RSI: 46.56 | VIX: 15.00
+2026-06-29 10:19:34,266 - INFO - Scanning 1m trend...
+2026-06-29 10:19:35,033 - INFO - Spot: 24071.6 | VWAP: 24082.40 | RSI: 46.56 | VIX: 15.00
+2026-06-29 10:19:55,034 - INFO - Scanning 1m trend...
+2026-06-29 10:19:55,821 - INFO - Spot: 24071.6 | VWAP: 24082.40 | RSI: 46.56 | VIX: 15.00
+2026-06-29 10:20:15,822 - INFO - Scanning 1m trend...
+2026-06-29 10:20:16,507 - INFO - Spot: 24075.0 | VWAP: 24082.31 | RSI: 48.47 | VIX: 15.00
+2026-06-29 10:20:36,508 - INFO - Scanning 1m trend...
+2026-06-29 10:20:37,295 - INFO - Spot: 24075.0 | VWAP: 24082.31 | RSI: 48.47 | VIX: 15.00
+2026-06-29 10:20:57,296 - INFO - Scanning 1m trend...
+2026-06-29 10:20:57,980 - INFO - Spot: 24075.0 | VWAP: 24082.31 | RSI: 48.47 | VIX: 15.00
+2026-06-29 10:21:17,981 - INFO - Scanning 1m trend...
+2026-06-29 10:21:18,730 - INFO - Spot: 24076.6 | VWAP: 24082.25 | RSI: 49.38 | VIX: 15.00
+2026-06-29 10:21:38,731 - INFO - Scanning 1m trend...
+2026-06-29 10:21:39,438 - INFO - Spot: 24076.6 | VWAP: 24082.25 | RSI: 49.38 | VIX: 15.00
+2026-06-29 10:21:59,439 - INFO - Scanning 1m trend...
+2026-06-29 10:22:01,670 - INFO - Spot: 24076.6 | VWAP: 24082.25 | RSI: 49.38 | VIX: 15.00
+2026-06-29 10:22:21,671 - INFO - Scanning 1m trend...
+2026-06-29 10:22:22,458 - INFO - Spot: 24073.5 | VWAP: 24082.13 | RSI: 47.62 | VIX: 15.00
+2026-06-29 10:22:42,459 - INFO - Scanning 1m trend...
+2026-06-29 10:22:43,268 - INFO - Spot: 24073.5 | VWAP: 24082.13 | RSI: 47.62 | VIX: 15.00
+2026-06-29 10:23:03,269 - INFO - Scanning 1m trend...
+2026-06-29 10:23:03,952 - INFO - Spot: 24073.5 | VWAP: 24082.13 | RSI: 47.62 | VIX: 15.00
+2026-06-29 10:23:23,953 - INFO - Scanning 1m trend...
+2026-06-29 10:23:24,618 - INFO - Spot: 24091.6 | VWAP: 24082.25 | RSI: 57.23 | VIX: 15.00
+2026-06-29 10:23:44,619 - INFO - Scanning 1m trend...
+2026-06-29 10:23:45,336 - INFO - Spot: 24091.6 | VWAP: 24082.25 | RSI: 57.23 | VIX: 15.00
+2026-06-29 10:24:05,337 - INFO - Scanning 1m trend...
+2026-06-29 10:24:07,254 - INFO - Spot: 24105.0 | VWAP: 24082.48 | RSI: 62.70 | VIX: 15.00
+2026-06-29 10:24:08,021 - INFO - 🚀 *BULLISH BREAKOUT DETECTED (1M FRAME)*
+Mode: **PAPER**
+VWAP & RSI Aligned.
+India VIX: 15.00
+Executing BUY for `NSE-NIFTY-30Jun26-24100-CE`.
+2026-06-29 10:24:12,006 - INFO - 📝 [PAPER] ENTRY FILLED BUY 65 NSE-NIFTY-30Jun26-24100-CE @ ₹83.9 (LTP: ₹83.9, Slip: ₹0.04)
+2026-06-29 10:24:14,109 - INFO - 📝 [PAPER] SL ORDER PLACED NSE-NIFTY-30Jun26-24100-CE Trigger: ₹65.9 | ID: PAPER_1782708854_2
+2026-06-29 10:24:16,203 - INFO - 📝 [PAPER] Position Opened: NSE-NIFTY-30Jun26-24100-CE BUY 65 @ 83.9 | Margin Blocked: ₹818
+2026-06-29 10:24:16,203 - INFO - 🛡️ *ACTIVE POSITION (PAPER)*
+Entry: ₹83.9
+VIX SL Dist: 18.0 pts
+Initial SL: ₹65.9
+SL OrderID: `PAPER_1782708854_2`
+2026-06-29 10:25:00,755 - INFO - Tracking NSE-NIFTY-30Jun26-24100-CE -> Live: ₹86.85 | SL: ₹65.9 | uPnL: ₹191.75 | Equity: ₹994275.17
+2026-06-29 10:26:00,805 - INFO - Tracking NSE-NIFTY-30Jun26-24100-CE -> Live: ₹91.85 | SL: ₹65.9 | uPnL: ₹516.75 | Equity: ₹994600.17
+2026-06-29 10:26:56,094 - INFO - 📝 [PAPER] SL MODIFIED PAPER_1782708854_2 -> ₹89.1
+2026-06-29 10:27:02,712 - INFO - 📝 [PAPER] SL MODIFIED PAPER_1782708854_2 -> ₹89.9
+2026-06-29 10:27:06,829 - INFO - 📝 [PAPER] SL MODIFIED PAPER_1782708854_2 -> ₹91.5
+2026-06-29 10:27:42,878 - INFO - 📝 [PAPER] SL MODIFIED PAPER_1782708854_2 -> ₹92.2
+2026-06-29 10:28:00,789 - INFO - Tracking NSE-NIFTY-30Jun26-24100-CE -> Live: ₹101.35 | SL: ₹92.2 | uPnL: ₹1134.25 | Equity: ₹995217.67
+2026-06-29 10:28:30,761 - INFO - Tracking NSE-NIFTY-30Jun26-24100-CE -> Live: ₹98.9 | SL: ₹92.2 | uPnL: ₹975.00 | Equity: ₹995058.42
+2026-06-29 10:31:17,749 - WARNING - 📝 [PAPER] SL TRIGGERED! LTP: 90.65 <= SL: 92.2
+2026-06-29 10:31:17,750 - INFO - 🛑 *POSITION CLOSED*
+Symbol: `NSE-NIFTY-30Jun26-24100-CE`
+Exit ~₹92.6
+Highest Seen: ₹102.2
+2026-06-29 10:31:20,245 - INFO - 📝 [PAPER] Position Closed: NSE-NIFTY-30Jun26-24100-CE | Net PnL: ₹499.76 | Reason: SL HIT | Equity: ₹995900.97
+2026-06-29 10:31:26,307 - ERROR - Failed to send to 6746112925: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=2)
+2026-06-29 10:31:26,310 - INFO - Trade cycle complete. Pausing strategy for the day.

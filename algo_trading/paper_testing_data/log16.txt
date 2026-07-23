@@ -1,0 +1,56 @@
+(.venv) PS C:\Users\mahen\Desktop\groww_algo> python t.py                                                                                                    
+2026-07-14 14:23:08,388 - INFO - Authenticating via TOTP...
+Ready to Groww!
+2026-07-14 14:23:09,535 - INFO - System Online.
+2026-07-14 14:23:09,535 - INFO - 📝 Paper State Loaded Successfully.
+2026-07-14 14:23:09,536 - INFO - 📝 PAPER ACCOUNT LOADED | Equity: ₹1003969.62 | Cash: ₹999225.41 | Daily PnL: ₹-182.95
+2026-07-14 14:23:09,536 - INFO - 📝 PROFESSIONAL PAPER TRADING ENGINE INITIALIZED
+2026-07-14 14:23:09,536 - INFO - Trading Mode: PAPER (Virtual Money)
+2026-07-14 14:23:09,536 - INFO - Background Telegram worker activated.
+2026-07-14 14:23:09,536 - INFO - Scanning 1m trend...
+2026-07-14 14:23:10,158 - INFO - Spot: 24034.0 | VWAP(VWAP_D): 24087.00 | RSI(RSI_14): 41.04 | VIX: 15.00
+2026-07-14 14:23:30,159 - INFO - Scanning 1m trend...
+2026-07-14 14:23:31,007 - INFO - Spot: 24034.0 | VWAP(VWAP_D): 24087.00 | RSI(RSI_14): 41.04 | VIX: 15.00
+2026-07-14 14:23:51,008 - INFO - Scanning 1m trend...
+2026-07-14 14:23:51,752 - INFO - Spot: 24034.0 | VWAP(VWAP_D): 24087.00 | RSI(RSI_14): 41.04 | VIX: 15.00
+2026-07-14 14:24:11,753 - INFO - Scanning 1m trend...
+2026-07-14 14:24:12,275 - INFO - Spot: 24027.0 | VWAP(VWAP_D): 24086.80 | RSI(RSI_14): 36.17 | VIX: 15.00
+2026-07-14 14:24:12,808 - INFO - 🚀 *BEARISH BREAKDOWN DETECTED (1M FRAME)*
+Mode: **PAPER**
+VWAP & RSI Aligned.
+India VIX: 15.00
+Executing BUY for `NSE-NIFTY-14Jul26-24000-PE`.
+2026-07-14 14:24:13,291 - INFO - 📝 [PAPER] ENTRY FILLED SELL 65 NSE-NIFTY-14Jul26-24000-PE @ ₹11.0 (LTP: ₹11.0, Slip: ₹0.01)
+2026-07-14 14:24:13,292 - INFO - 📝 [PAPER] SL ORDER PLACED NSE-NIFTY-14Jul26-24000-PE Trigger: ₹29.0 | ID: PAPER_1784019253_2
+2026-07-14 14:24:13,293 - INFO - 📝 [PAPER] Position Opened: NSE-NIFTY-14Jul26-24000-PE SELL 65 @ 11.0 | Margin Blocked: ₹107
+2026-07-14 14:24:13,293 - INFO - 🛡️ *ACTIVE POSITION (PAPER)*
+Entry: ₹11.0
+VIX SL Dist: 18.0 pts
+Initial SL: ₹29.0
+SL OrderID: `PAPER_1784019253_2`
+2026-07-14 14:24:30,191 - INFO - Tracking NSE-NIFTY-14Jul26-24000-PE -> Live: ₹11.6  | SL: ₹29.0 | uPnL: ₹-39.00 | Equity: ₹1003803.37
+2026-07-14 14:25:00,881 - INFO - Tracking NSE-NIFTY-14Jul26-24000-PE -> Live: ₹11.15  | SL: ₹29.0 | uPnL: ₹-9.75 | Equity: ₹1003832.62
+2026-07-14 14:25:30,268 - INFO - Tracking NSE-NIFTY-14Jul26-24000-PE -> Live: ₹11.8  | SL: ₹29.0 | uPnL: ₹-52.00 | Equity: ₹1003790.37
+2026-07-14 14:26:30,881 - INFO - Tracking NSE-NIFTY-14Jul26-24000-PE -> Live: ₹12.55  | SL: ₹29.0 | uPnL: ₹-100.75 | Equity: ₹1003741.62
+2026-07-14 14:27:00,373 - INFO - Tracking NSE-NIFTY-14Jul26-24000-PE -> Live: ₹11.1  | SL: ₹29.0 | uPnL: ₹-6.50 | Equity: ₹1003835.87
+2026-07-14 14:32:00,087 - INFO - Tracking NSE-NIFTY-14Jul26-24000-PE -> Live: ₹13.75  | SL: ₹29.0 | uPnL: ₹-178.75 | Equity: ₹1003663.62
+2026-07-14 14:32:30,109 - INFO - Tracking NSE-NIFTY-14Jul26-24000-PE -> Live: ₹14.05  | SL: ₹29.0 | uPnL: ₹-198.25 | Equity: ₹1003644.12
+2026-07-14 14:34:00,027 - INFO - Tracking NSE-NIFTY-14Jul26-24000-PE -> Live: ₹13.85  | SL: ₹29.0 | uPnL: ₹-185.25 | Equity: ₹1003657.12
+2026-07-14 14:34:30,434 - INFO - Tracking NSE-NIFTY-14Jul26-24000-PE -> Live: ₹12.35  | SL: ₹29.0 | uPnL: ₹-87.75 | Equity: ₹1003754.62
+2026-07-14 14:35:00,748 - INFO - Tracking NSE-NIFTY-14Jul26-24000-PE -> Live: ₹9.8  | SL: ₹29.0 | uPnL: ₹78.00 | Equity: ₹1003920.37
+2026-07-14 14:36:00,385 - INFO - Tracking NSE-NIFTY-14Jul26-24000-PE -> Live: ₹7.95  | SL: ₹29.0 | uPnL: ₹198.25 | Equity: ₹1004040.62
+2026-07-14 14:38:30,051 - INFO - Tracking NSE-NIFTY-14Jul26-24000-PE -> Live: ₹10.7  | SL: ₹29.0 | uPnL: ₹19.50 | Equity: ₹1003861.87
+2026-07-14 14:40:00,785 - INFO - Tracking NSE-NIFTY-14Jul26-24000-PE -> Live: ₹9.4  | SL: ₹29.0 | uPnL: ₹104.00 | Equity: ₹1003946.37
+2026-07-14 14:45:00,035 - INFO - Tracking NSE-NIFTY-14Jul26-24000-PE -> Live: ₹9.9  | SL: ₹29.0 | uPnL: ₹71.50 | Equity: ₹1003913.87
+2026-07-14 14:51:00,464 - INFO - Tracking NSE-NIFTY-14Jul26-24000-PE -> Live: ₹16.7  | SL: ₹29.0 | uPnL: ₹-370.50 | Equity: ₹1003471.87
+2026-07-14 14:54:00,115 - INFO - Tracking NSE-NIFTY-14Jul26-24000-PE -> Live: ₹15.5  | SL: ₹29.0 | uPnL: ₹-292.50 | Equity: ₹1003549.87
+2026-07-14 14:54:30,386 - INFO - Tracking NSE-NIFTY-14Jul26-24000-PE -> Live: ₹15.75  | SL: ₹29.0 | uPnL: ₹-308.75 | Equity: ₹1003533.62
+2026-07-14 15:07:00,793 - INFO - Tracking NSE-NIFTY-14Jul26-24000-PE -> Live: ₹0.25  | SL: ₹29.0 | uPnL: ₹698.75 | Equity: ₹1004541.12
+2026-07-14 15:09:00,922 - INFO - Tracking NSE-NIFTY-14Jul26-24000-PE -> Live: ₹0.25  | SL: ₹29.0 | uPnL: ₹698.75 | Equity: ₹1004541.12
+2026-07-14 15:15:00,242 - INFO - Tracking NSE-NIFTY-14Jul26-24000-PE -> Live: ₹0.2  | SL: ₹29.0 | uPnL: ₹702.00 | Equity: ₹1004544.37
+2026-07-14 15:20:01,607 - INFO - EOD Time Reached. Squaring Off.
+2026-07-14 15:20:05,709 - WARNING - 📝 [PAPER] EOD FORCE SQUARE OFF
+2026-07-14 15:20:05,726 - INFO - 📝 [PAPER] Position Closed: NSE-NIFTY-14Jul26-24000-PE | Net PnL: ₹648.14 | Reason: EOD SQUARE OFF | Equity: ₹1005245.89
+2026-07-14 15:20:05,726 - INFO - Trade cycle complete. Pausing strategy for the day.
+2026-07-14 15:30:25,732 - INFO - Market Closed. Resting...
+2026-07-14 15:30:45,733 - INFO - Market Closed. Resting...

@@ -1,0 +1,88 @@
+(.venv) PS C:\Users\mahen\Desktop\groww_algo> python t.py
+2026-07-13 14:05:02,463 - INFO - Authenticating via TOTP...
+Ready to Groww!
+2026-07-13 14:05:04,342 - INFO - System Online.
+2026-07-13 14:05:04,343 - INFO - 📝 Paper State Loaded Successfully.
+2026-07-13 14:05:04,343 - INFO - 📝 PAPER ACCOUNT LOADED | Equity: ₹1006096.94 | Cash: ₹1000596.25 | Daily PnL: ₹8656.18
+2026-07-13 14:05:04,344 - INFO - 📝 PROFESSIONAL PAPER TRADING ENGINE INITIALIZED
+2026-07-13 14:05:04,345 - INFO - Trading Mode: PAPER (Virtual Money)
+2026-07-13 14:05:04,346 - INFO - Background Telegram worker activated.
+2026-07-13 14:05:04,346 - INFO - Scanning 1m trend...
+2026-07-13 14:05:05,314 - INFO - Spot: 24220.7 | VWAP(VWAP_D): 24139.19 | RSI(RSI_14): 47.20 | VIX: 15.00
+2026-07-13 14:05:25,319 - INFO - Scanning 1m trend...
+2026-07-13 14:05:26,273 - INFO - Spot: 24220.7 | VWAP(VWAP_D): 24139.19 | RSI(RSI_14): 47.20 | VIX: 15.00
+2026-07-13 14:05:46,275 - INFO - Scanning 1m trend...
+2026-07-13 14:05:47,155 - INFO - Spot: 24220.7 | VWAP(VWAP_D): 24139.19 | RSI(RSI_14): 47.20 | VIX: 15.00
+2026-07-13 14:06:07,157 - INFO - Scanning 1m trend...
+2026-07-13 14:06:08,041 - INFO - Spot: 24229.9 | VWAP(VWAP_D): 24139.46 | RSI(RSI_14): 54.09 | VIX: 15.00
+2026-07-13 14:06:28,042 - INFO - Scanning 1m trend...
+2026-07-13 14:06:29,138 - INFO - Spot: 24229.9 | VWAP(VWAP_D): 24139.46 | RSI(RSI_14): 54.09 | VIX: 15.00
+2026-07-13 14:06:49,140 - INFO - Scanning 1m trend...
+2026-07-13 14:06:50,027 - INFO - Spot: 24229.9 | VWAP(VWAP_D): 24139.46 | RSI(RSI_14): 54.09 | VIX: 15.00
+2026-07-13 14:07:10,028 - INFO - Scanning 1m trend...
+2026-07-13 14:07:11,018 - INFO - Spot: 24231.0 | VWAP(VWAP_D): 24139.51 | RSI(RSI_14): 54.85 | VIX: 15.00
+2026-07-13 14:07:31,020 - INFO - Scanning 1m trend...
+2026-07-13 14:07:31,838 - INFO - Spot: 24231.0 | VWAP(VWAP_D): 24139.51 | RSI(RSI_14): 54.85 | VIX: 15.00
+2026-07-13 14:07:51,839 - INFO - Scanning 1m trend...
+2026-07-13 14:08:33,939 - ERROR - Execution Error: HTTPSConnectionPool(host='api.groww.in', port=443): Max retries exceeded with url: /v1/historical/candles?exchange=NSE&segment=FNO&groww_symbol=NSE-NIFTY-28Jul26-FUT&start_time=2026-07-11+14%3A07%3A51&end_time=2026-07-13+14%3A07%3A51&candle_interval=1minute (Caused by NewConnectionError("HTTPSConnection(host='api.groww.in', port=443): Failed to establish a new connection: [WinError 10065] A socket operation was attempted to an unreachable host"))
+2026-07-13 14:08:53,940 - INFO - Scanning 1m trend...
+2026-07-13 14:08:53,943 - ERROR - Execution Error: HTTPSConnectionPool(host='api.groww.in', port=443): Max retries exceeded with url: /v1/historical/candles?exchange=NSE&segment=FNO&groww_symbol=NSE-NIFTY-28Jul26-FUT&start_time=2026-07-11+14%3A08%3A53&end_time=2026-07-13+14%3A08%3A53&candle_interval=1minute (Caused by NameResolutionError("HTTPSConnection(host='api.groww.in', port=443): Failed to resolve 'api.groww.in' ([Errno 11001] getaddrinfo failed)"))
+2026-07-13 14:09:13,945 - INFO - Scanning 1m trend...
+2026-07-13 14:09:13,955 - ERROR - Execution Error: HTTPSConnectionPool(host='api.groww.in', port=443): Max retries exceeded with url: /v1/historical/candles?exchange=NSE&segment=FNO&groww_symbol=NSE-NIFTY-28Jul26-FUT&start_time=2026-07-11+14%3A09%3A13&end_time=2026-07-13+14%3A09%3A13&candle_interval=1minute (Caused by NameResolutionError("HTTPSConnection(host='api.groww.in', port=443): Failed to resolve 'api.groww.in' ([Errno 11001] getaddrinfo failed)"))
+2026-07-13 14:09:33,956 - INFO - Scanning 1m trend...
+2026-07-13 14:09:33,958 - ERROR - Execution Error: HTTPSConnectionPool(host='api.groww.in', port=443): Max retries exceeded with url: /v1/historical/candles?exchange=NSE&segment=FNO&groww_symbol=NSE-NIFTY-28Jul26-FUT&start_time=2026-07-11+14%3A09%3A33&end_time=2026-07-13+14%3A09%3A33&candle_interval=1minute (Caused by NameResolutionError("HTTPSConnection(host='api.groww.in', port=443): Failed to resolve 'api.groww.in' ([Errno 11001] getaddrinfo failed)"))
+2026-07-13 14:09:53,964 - INFO - Scanning 1m trend...
+2026-07-13 14:09:53,966 - ERROR - Execution Error: HTTPSConnectionPool(host='api.groww.in', port=443): Max retries exceeded with url: /v1/historical/candles?exchange=NSE&segment=FNO&groww_symbol=NSE-NIFTY-28Jul26-FUT&start_time=2026-07-11+14%3A09%3A53&end_time=2026-07-13+14%3A09%3A53&candle_interval=1minute (Caused by NameResolutionError("HTTPSConnection(host='api.groww.in', port=443): Failed to resolve 'api.groww.in' ([Errno 11001] getaddrinfo failed)"))
+2026-07-13 14:10:13,967 - INFO - Scanning 1m trend...
+2026-07-13 14:10:13,969 - ERROR - Execution Error: HTTPSConnectionPool(host='api.groww.in', port=443): Max retries exceeded with url: /v1/historical/candles?exchange=NSE&segment=FNO&groww_symbol=NSE-NIFTY-28Jul26-FUT&start_time=2026-07-11+14%3A10%3A13&end_time=2026-07-13+14%3A10%3A13&candle_interval=1minute (Caused by NameResolutionError("HTTPSConnection(host='api.groww.in', port=443): Failed to resolve 'api.groww.in' ([Errno 11001] getaddrinfo failed)"))
+2026-07-13 14:10:33,969 - INFO - Scanning 1m trend...
+2026-07-13 14:10:33,971 - ERROR - Execution Error: HTTPSConnectionPool(host='api.groww.in', port=443): Max retries exceeded with url: /v1/historical/candles?exchange=NSE&segment=FNO&groww_symbol=NSE-NIFTY-28Jul26-FUT&start_time=2026-07-11+14%3A10%3A33&end_time=2026-07-13+14%3A10%3A33&candle_interval=1minute (Caused by NameResolutionError("HTTPSConnection(host='api.groww.in', port=443): Failed to resolve 'api.groww.in' ([Errno 11001] getaddrinfo failed)"))
+2026-07-13 14:10:53,972 - INFO - Scanning 1m trend...
+2026-07-13 14:10:55,718 - INFO - Spot: 24234.3 | VWAP(VWAP_D): 24139.91 | RSI(RSI_14): 57.32 | VIX: 15.00
+2026-07-13 14:11:15,719 - INFO - Scanning 1m trend...
+2026-07-13 14:11:16,391 - INFO - Spot: 24238.9 | VWAP(VWAP_D): 24140.10 | RSI(RSI_14): 60.66 | VIX: 15.00
+2026-07-13 14:11:17,024 - INFO - 🚀 *BULLISH BREAKOUT DETECTED (1M FRAME)*
+Mode: **PAPER**
+VWAP & RSI Aligned.
+India VIX: 15.00
+Executing BUY for `NSE-NIFTY-14Jul26-24200-CE`.
+2026-07-13 14:11:17,606 - INFO - 📝 [PAPER] ENTRY FILLED BUY 65 NSE-NIFTY-14Jul26-24200-CE @ ₹88.9 (LTP: ₹88.85, Slip: ₹0.04)
+2026-07-13 14:11:17,607 - INFO - 📝 [PAPER] SL ORDER PLACED NSE-NIFTY-14Jul26-24200-CE Trigger: ₹70.9 | ID: PAPER_1783932077_2
+2026-07-13 14:11:17,609 - INFO - 📝 [PAPER] Position Opened: NSE-NIFTY-14Jul26-24200-CE BUY 65 @ 88.9 | Margin Blocked: ₹867
+2026-07-13 14:11:17,609 - INFO - 🛡️ *ACTIVE POSITION (PAPER)*
+Entry: ₹88.9
+VIX SL Dist: 18.0 pts
+Initial SL: ₹70.9
+SL OrderID: `PAPER_1783932077_2`
+2026-07-13 14:14:00,113 - INFO - Tracking NSE-NIFTY-14Jul26-24200-CE -> Live: ₹90.3  | SL: ₹70.9 | uPnL: ₹91.00 | Equity: ₹1005301.17
+2026-07-13 14:15:00,327 - INFO - Tracking NSE-NIFTY-14Jul26-24200-CE -> Live: ₹90.8  | SL: ₹70.9 | uPnL: ₹123.50 | Equity: ₹1005333.67
+2026-07-13 14:16:00,641 - INFO - Tracking NSE-NIFTY-14Jul26-24200-CE -> Live: ₹91.8  | SL: ₹70.9 | uPnL: ₹188.50 | Equity: ₹1005398.67
+2026-07-13 14:16:30,849 - INFO - Tracking NSE-NIFTY-14Jul26-24200-CE -> Live: ₹90.85  | SL: ₹70.9 | uPnL: ₹126.75 | Equity: ₹1005336.92
+2026-07-13 14:17:00,240 - INFO - Tracking NSE-NIFTY-14Jul26-24200-CE -> Live: ₹88.0  | SL: ₹70.9 | uPnL: ₹-58.50 | Equity: ₹1005151.67
+2026-07-13 14:17:30,922 - INFO - Tracking NSE-NIFTY-14Jul26-24200-CE -> Live: ₹91.5  | SL: ₹70.9 | uPnL: ₹169.00 | Equity: ₹1005379.17
+2026-07-13 14:18:00,759 - INFO - Tracking NSE-NIFTY-14Jul26-24200-CE -> Live: ₹86.55  | SL: ₹70.9 | uPnL: ₹-152.75 | Equity: ₹1005057.42
+2026-07-13 14:18:30,557 - INFO - Tracking NSE-NIFTY-14Jul26-24200-CE -> Live: ₹90.9  | SL: ₹70.9 | uPnL: ₹130.00 | Equity: ₹1005340.17
+2026-07-13 14:19:00,260 - INFO - Tracking NSE-NIFTY-14Jul26-24200-CE -> Live: ₹94.0  | SL: ₹70.9 | uPnL: ₹331.50 | Equity: ₹1005541.67
+2026-07-13 14:19:30,930 - INFO - Tracking NSE-NIFTY-14Jul26-24200-CE -> Live: ₹93.3  | SL: ₹70.9 | uPnL: ₹286.00 | Equity: ₹1005496.17
+2026-07-13 14:20:00,739 - INFO - Tracking NSE-NIFTY-14Jul26-24200-CE -> Live: ₹95.0  | SL: ₹70.9 | uPnL: ₹396.50 | Equity: ₹1005606.67
+2026-07-13 14:21:00,404 - INFO - Tracking NSE-NIFTY-14Jul26-24200-CE -> Live: ₹93.55  | SL: ₹70.9 | uPnL: ₹302.25 | Equity: ₹1005512.42
+2026-07-13 14:21:30,171 - INFO - Tracking NSE-NIFTY-14Jul26-24200-CE -> Live: ₹95.4  | SL: ₹70.9 | uPnL: ₹422.50 | Equity: ₹1005632.67
+2026-07-13 14:21:48,307 - INFO - 📝 [PAPER] SL MODIFIED PAPER_1783932077_2 -> ₹94.8
+2026-07-13 14:22:00,571 - INFO - Tracking NSE-NIFTY-14Jul26-24200-CE -> Live: ₹101.6  | SL: ₹94.8 | uPnL: ₹825.50 | Equity: ₹1006035.67
+2026-07-13 14:22:30,179 - INFO - Tracking NSE-NIFTY-14Jul26-24200-CE -> Live: ₹101.7  | SL: ₹94.8 | uPnL: ₹832.00 | Equity: ₹1006042.17
+2026-07-13 14:23:00,286 - INFO - Tracking NSE-NIFTY-14Jul26-24200-CE -> Live: ₹97.5  | SL: ₹94.8 | uPnL: ₹559.00 | Equity: ₹1005769.17
+2026-07-13 14:23:30,701 - INFO - Tracking NSE-NIFTY-14Jul26-24200-CE -> Live: ₹98.85  | SL: ₹94.8 | uPnL: ₹646.75 | Equity: ₹1005856.92
+2026-07-13 14:24:00,337 - INFO - Tracking NSE-NIFTY-14Jul26-24200-CE -> Live: ₹100.75  | SL: ₹94.8 | uPnL: ₹770.25 | Equity: ₹1005980.42
+2026-07-13 14:24:30,193 - INFO - Tracking NSE-NIFTY-14Jul26-24200-CE -> Live: ₹99.4  | SL: ₹94.8 | uPnL: ₹682.50 | Equity: ₹1005892.67
+2026-07-13 14:25:30,611 - INFO - Tracking NSE-NIFTY-14Jul26-24200-CE -> Live: ₹98.25  | SL: ₹94.8 | uPnL: ₹607.75 | Equity: ₹1005817.92
+2026-07-13 14:26:00,923 - INFO - Tracking NSE-NIFTY-14Jul26-24200-CE -> Live: ₹97.35  | SL: ₹94.8 | uPnL: ₹549.25 | Equity: ₹1005759.42
+2026-07-13 14:27:00,623 - INFO - Tracking NSE-NIFTY-14Jul26-24200-CE -> Live: ₹99.25  | SL: ₹94.8 | uPnL: ₹672.75 | Equity: ₹1005882.92
+2026-07-13 14:27:30,934 - INFO - Tracking NSE-NIFTY-14Jul26-24200-CE -> Live: ₹98.4  | SL: ₹94.8 | uPnL: ₹617.50 | Equity: ₹1005827.67
+2026-07-13 14:28:00,760 - INFO - Tracking NSE-NIFTY-14Jul26-24200-CE -> Live: ₹95.6  | SL: ₹94.8 | uPnL: ₹435.50 | Equity: ₹1005645.67
+2026-07-13 14:28:16,707 - WARNING - 📝 [PAPER] SL TRIGGERED! LTP: 93.6 <= SL: 94.8
+2026-07-13 14:28:16,707 - INFO - 🛑 *POSITION CLOSED*
+Symbol: `NSE-NIFTY-14Jul26-24200-CE`
+Exit ~₹94.25
+Highest Seen: ₹104.8
+2026-07-13 14:28:16,759 - INFO - 📝 [PAPER] Position Closed: NSE-NIFTY-14Jul26-24200-CE | Net PnL: ₹281.80 | Reason: SL HIT | Equity: ₹1006640.54
+2026-07-13 14:28:16,759 - INFO - Trade cycle complete. Pausing strategy for the day.

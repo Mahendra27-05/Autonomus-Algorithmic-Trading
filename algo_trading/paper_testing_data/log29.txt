@@ -1,0 +1,86 @@
+(.venv) PS C:\Users\mahen\Desktop\groww_algo> python t.py                                                                                                                          
+2026-07-20 13:14:48,179 - INFO - Authenticating via TOTP...
+Ready to Groww!
+2026-07-20 13:14:50,383 - INFO - System Online.
+2026-07-20 13:14:50,384 - INFO - 📝 Paper State Loaded Successfully.
+2026-07-20 13:14:50,385 - INFO - 📝 PAPER ACCOUNT LOADED | Equity: ₹1013730.74 | Cash: ₹1002779.84 | Daily PnL: ₹-3178.11
+2026-07-20 13:14:50,385 - INFO - 📝 PROFESSIONAL PAPER TRADING ENGINE INITIALIZED
+2026-07-20 13:14:50,385 - INFO - Trading Mode: PAPER (Virtual Money)
+2026-07-20 13:14:50,385 - INFO - Background Telegram worker activated.
+2026-07-20 13:14:50,386 - INFO - Scanning 1m trend...
+2026-07-20 13:14:51,377 - INFO - Spot: 24194.1 | VWAP(VWAP_D): 24185.89 | RSI(RSI_14): 64.52 | VIX: 15.00
+2026-07-20 13:14:52,072 - INFO - 🚀 *BULLISH BREAKOUT DETECTED (1M FRAME)*
+Mode: **PAPER**
+VWAP & RSI Aligned.
+India VIX: 15.00
+Executing BUY for `NSE-NIFTY-21Jul26-24150-CE`.
+2026-07-20 13:14:52,777 - INFO - 📝 [PAPER] ENTRY FILLED BUY 65 NSE-NIFTY-21Jul26-24150-CE @ ₹116.8 (LTP: ₹116.75, Slip: ₹0.06)
+2026-07-20 13:14:52,777 - INFO - 📝 [PAPER] SL ORDER PLACED NSE-NIFTY-21Jul26-24150-CE Trigger: ₹98.8 | ID: PAPER_1784533492_2
+2026-07-20 13:14:52,778 - INFO - 📝 [PAPER] Position Opened: NSE-NIFTY-21Jul26-24150-CE BUY 65 @ 116.8 | Margin Blocked: ₹1139
+2026-07-20 13:14:52,778 - INFO - 🛡️ *ACTIVE POSITION (PAPER)*
+Entry: ₹116.8
+VIX SL Dist: 18.0 pts
+Initial SL: ₹98.8
+SL OrderID: `PAPER_1784533492_2`
+2026-07-20 13:15:19,064 - INFO - 📝 [PAPER] SL MODIFIED PAPER_1784533492_2 -> ₹125.4
+2026-07-20 13:15:21,685 - INFO - 📝 [PAPER] SL MODIFIED PAPER_1784533492_2 -> ₹129.2
+2026-07-20 13:15:23,764 - WARNING - 📝 [PAPER] SL TRIGGERED! LTP: 128.25 <= SL: 129.2
+2026-07-20 13:15:23,764 - INFO - 🛑 *POSITION CLOSED*
+Symbol: `NSE-NIFTY-21Jul26-24150-CE`
+Exit ~₹130.6
+Highest Seen: ₹139.15
+2026-07-20 13:15:23,811 - INFO - 📝 [PAPER] Position Closed: NSE-NIFTY-21Jul26-24150-CE | Net PnL: ₹828.96 | Reason: SL HIT | Equity: ₹1015368.66
+2026-07-20 13:15:23,811 - INFO - Trade cycle complete. Pausing strategy for the day.
+Traceback (most recent call last):
+  File "C:\Users\mahen\Desktop\groww_algo\t.py", line 803, in <module>
+    while datetime.now().time() < market_close: time.sleep(60)
+                                                ~~~~~~~~~~^^^^
+KeyboardInterrupt
+(.venv) PS C:\Users\mahen\Desktop\groww_algo> python t.py
+2026-07-20 13:15:36,382 - INFO - Authenticating via TOTP...
+Ready to Groww!
+2026-07-20 13:15:37,927 - INFO - System Online.
+2026-07-20 13:15:37,927 - INFO - 📝 Paper State Loaded Successfully.
+2026-07-20 13:15:37,928 - INFO - 📝 PAPER ACCOUNT LOADED | Equity: ₹1015368.66 | Cash: ₹1003588.80 | Daily PnL: ₹-1540.19
+2026-07-20 13:15:37,928 - INFO - 📝 PROFESSIONAL PAPER TRADING ENGINE INITIALIZED
+2026-07-20 13:15:37,928 - INFO - Trading Mode: PAPER (Virtual Money)
+2026-07-20 13:15:37,929 - INFO - Background Telegram worker activated.
+2026-07-20 13:15:37,929 - INFO - Scanning 1m trend...
+2026-07-20 13:15:38,605 - INFO - Spot: 24229.0 | VWAP(VWAP_D): 24186.66 | RSI(RSI_14): 76.21 | VIX: 15.00
+2026-07-20 13:15:39,366 - INFO - 🚀 *BULLISH BREAKOUT DETECTED (1M FRAME)*
+Mode: **PAPER**
+VWAP & RSI Aligned.
+India VIX: 15.00
+Executing BUY for `NSE-NIFTY-21Jul26-24200-CE`.
+2026-07-20 13:15:40,283 - INFO - 📝 [PAPER] ENTRY FILLED BUY 65 NSE-NIFTY-21Jul26-24200-CE @ ₹88.2 (LTP: ₹88.15, Slip: ₹0.04)
+2026-07-20 13:15:40,283 - INFO - 📝 [PAPER] SL ORDER PLACED NSE-NIFTY-21Jul26-24200-CE Trigger: ₹70.2 | ID: PAPER_1784533540_2
+2026-07-20 13:15:40,284 - INFO - 📝 [PAPER] Position Opened: NSE-NIFTY-21Jul26-24200-CE BUY 65 @ 88.2 | Margin Blocked: ₹860
+2026-07-20 13:15:40,285 - INFO - 🛡️ *ACTIVE POSITION (PAPER)*
+Entry: ₹88.2
+VIX SL Dist: 18.0 pts
+Initial SL: ₹70.2
+SL OrderID: `PAPER_1784533540_2`
+2026-07-20 13:16:00,660 - INFO - Tracking NSE-NIFTY-21Jul26-24200-CE -> Live: ₹87.9  | SL: ₹70.2 | uPnL: ₹-19.50 | Equity: ₹1014469.21
+2026-07-20 13:17:30,160 - INFO - Tracking NSE-NIFTY-21Jul26-24200-CE -> Live: ₹88.55  | SL: ₹70.2 | uPnL: ₹22.75 | Equity: ₹1014511.46
+2026-07-20 13:18:00,368 - INFO - Tracking NSE-NIFTY-21Jul26-24200-CE -> Live: ₹87.9  | SL: ₹70.2 | uPnL: ₹-19.50 | Equity: ₹1014469.21
+2026-07-20 13:19:00,789 - INFO - Tracking NSE-NIFTY-21Jul26-24200-CE -> Live: ₹86.0  | SL: ₹70.2 | uPnL: ₹-143.00 | Equity: ₹1014345.71
+2026-07-20 13:19:30,792 - INFO - Tracking NSE-NIFTY-21Jul26-24200-CE -> Live: ₹87.65  | SL: ₹70.2 | uPnL: ₹-35.75 | Equity: ₹1014452.96
+2026-07-20 13:25:00,324 - INFO - Tracking NSE-NIFTY-21Jul26-24200-CE -> Live: ₹101.0  | SL: ₹70.2 | uPnL: ₹832.00 | Equity: ₹1015320.71
+2026-07-20 13:25:30,223 - INFO - Tracking NSE-NIFTY-21Jul26-24200-CE -> Live: ₹97.8  | SL: ₹70.2 | uPnL: ₹624.00 | Equity: ₹1015112.71
+2026-07-20 13:27:00,955 - INFO - Tracking NSE-NIFTY-21Jul26-24200-CE -> Live: ₹102.6  | SL: ₹70.2 | uPnL: ₹936.00 | Equity: ₹1015424.71
+2026-07-20 13:27:06,691 - INFO - 📝 [PAPER] SL MODIFIED PAPER_1784533540_2 -> ₹93.5
+2026-07-20 13:27:21,230 - INFO - 📝 [PAPER] SL MODIFIED PAPER_1784533540_2 -> ₹94.0
+2026-07-20 13:27:25,639 - INFO - 📝 [PAPER] SL MODIFIED PAPER_1784533540_2 -> ₹94.8
+2026-07-20 13:27:27,991 - INFO - 📝 [PAPER] SL MODIFIED PAPER_1784533540_2 -> ₹95.2
+2026-07-20 13:27:59,530 - INFO - 📝 [PAPER] SL MODIFIED PAPER_1784533540_2 -> ₹95.5
+2026-07-20 13:28:02,088 - INFO - 📝 [PAPER] SL MODIFIED PAPER_1784533540_2 -> ₹99.1
+2026-07-20 13:28:30,760 - INFO - Tracking NSE-NIFTY-21Jul26-24200-CE -> Live: ₹106.55  | SL: ₹99.1 | uPnL: ₹1192.75 | Equity: ₹1015681.46
+2026-07-20 13:31:30,575 - INFO - Tracking NSE-NIFTY-21Jul26-24200-CE -> Live: ₹99.95  | SL: ₹99.1 | uPnL: ₹763.75 | Equity: ₹1015252.46
+2026-07-20 13:32:00,585 - INFO - Tracking NSE-NIFTY-21Jul26-24200-CE -> Live: ₹100.7  | SL: ₹99.1 | uPnL: ₹812.50 | Equity: ₹1015301.21
+2026-07-20 13:32:15,030 - WARNING - 📝 [PAPER] SL TRIGGERED! LTP: 98.8 <= SL: 99.1
+2026-07-20 13:32:15,031 - INFO - 🛑 *POSITION CLOSED*
+Symbol: `NSE-NIFTY-21Jul26-24200-CE`
+Exit ~₹98.85
+Highest Seen: ₹109.1
+2026-07-20 13:32:15,080 - INFO - 📝 [PAPER] Position Closed: NSE-NIFTY-21Jul26-24200-CE | Net PnL: ₹626.17 | Reason: SL HIT | Equity: ₹1016601.00
+2026-07-20 13:32:15,080 - INFO - Trade cycle complete. Pausing strategy for the day.
