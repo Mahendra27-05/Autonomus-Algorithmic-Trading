@@ -107,6 +107,8 @@ Live Trading
 
 ## Disclaimer
 
+v1,v2,v3,....represents a version or a modified code
+
 This project is for educational purposes only.
 
 Trading involves financial risk. Use Live Mode at your own risk and responsibility.
