@@ -8,6 +8,8 @@ A professional algorithmic trading bot built in Python for the Groww API.
 
 Supports both Paper Trading and Live Trading with advanced risk management.
 
+Alerts through telegram for real-time notifications such as Bearish and Bullish Momentums,Live or Paper Entries,Order Executions......
+
 ---
 
 ## Features
