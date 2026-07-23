@@ -74,6 +74,14 @@ Bearish
 - Telegram Bot API
 - TOTP Authentication
 
+---
+
+## Back Testing
+
+- It consists of 30 logs of back testing data
+- Daily PnO data
+- Groww Instruments data
+- A sample scalper.py code for scalping
 
 ---
 
